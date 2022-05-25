@@ -1,0 +1,480 @@
+#navBar {
+    overflow: hidden;
+}
+#nav {
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.navbar-shrink {
+    background-color: #fff !important;
+
+    .navbar a {
+        color: rgba(0, 0, 0, 0.23);
+    }
+}
+.navbar {
+    
+    overflow: hidden;
+    padding: 0.5rem;
+}
+#navBar .navbar {
+    background-color: transparent;
+}
+.navbar a {
+    cursor: pointer;
+}
+@media (max-width: 500px) {
+    .navbar {
+        background-color: white !important;
+    }
+    .navbar-collapse {
+        background-color: white !important;
+        padding: 15px;
+    }
+}
+.landpage {
+    background: url(../assets/images/Nucare_LandPage_1.2.jpg);
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.landpage h5 {
+    font-family: "poppins", sans-serif;
+}
+
+.introimg {
+    display: flex;
+    top: 10%;
+    margin: 97px auto 0;
+}
+.imgprop {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.mainTitle {
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 65px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.title {
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.secTitle {
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.about {
+    background-color: #292d33;
+    position: relative;
+    overflow: hidden;
+}
+.about::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 75px;
+    width: 3px;
+    background-color: #fff;
+}
+.ourValues{
+    position: relative;
+    padding: 4vw 0;
+}
+.services {
+    position: relative;
+    padding: 4vw 0;
+}
+.services::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10%;
+    height: 75px;
+    width: 3px;
+    background-color: #2957dd;
+}
+.box {
+    margin: -360px auto 60px;
+    width: 765px;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    padding-top: 15px;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+#services i {
+    color: #fff !important;
+}
+#lnpad {
+    padding: 4% 3% 8% 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    text-align: justify;
+}
+.quote {
+    background-color: lightyellow;
+    padding: 10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6875rem;
+}
+.quote i {
+    font-size: 70px;
+    color:#000;
+    
+}
+.imgbox {
+    background: url(../assets/images/Nucare_Value_1-min.jpg);
+    background-position: top;
+    background-size: cover;
+    min-height: 460px;
+    width: 100%;
+}
+.emptybox {
+    width: 100%;
+    height: 250px;
+}
+span {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.spltext {
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+}
+
+#services .card {
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s 0s ease-in;
+}
+#services .card:hover {
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+
+#services .iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+#services .iconwrapper {
+    background-color: #2957dd;
+    border-radius: 50%;
+    width: 75px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#services i {
+    font-size: 34px;
+}
+#recentWorks {
+    background-color: #292d33;
+    padding: 2% 0;
+}
+#recentWorks .card {
+    border: none;
+}
+// #recentWorks img {
+//     border-radius: 12px;
+// }
+
+.innerValues{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-top: 0px !important;
+}
+//    .innerValues ul {width: 600px;}
+
+    .innerValues ul li{ padding: 10px;}  
+@media (min_width:600px)
+{
+p{
+    font-size:1.25rem; 
+    line-height: 1.5;
+}
+
+}
+
+
+
+
+.borderround {
+    border-radius: 12px !important;
+}
+#recentWorks .card {
+    border-radius: 0;
+}
+#recentWorks .nobjfit {
+    object-fit: cover !important;
+}
+
+
+.cursorp {
+    cursor: pointer;
+}
+.ifcon {
+    width: 100%;
+    height: 100%;
+    margin: 1.75rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ifimg {
+    width: 850px;
+}
+.objfit { 
+    object-fit: contain;
+}
+.bgdark {
+    background-color: #ddd;
+}
+.modal-content {
+    border: none;
+}
+
+#contact {
+    // background-color: #292d33;
+    min-height: 650px;
+    padding-top: 0.5%;
+}
+#contact .card {
+    border: none;
+}
+#contact a {
+    text-decoration: none;
+    color: inherit;
+}
+#contact .iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .iconwrapper {
+    background-color: #2957dd;
+    border-radius: 50%;
+    width: 45px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#contact i {
+    font-size: 20px;
+    color: #fff;
+}
+#contact p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 13px;
+}
+#contact .bshadow {
+    // box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+ //footer styles
+
+.footer {
+    background-color: #292d33;
+    color: #D3D3D3;
+    
+    padding-bottom: 2%;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer h4 {
+    color: #fff;
+}
+.footer ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer ul li {
+    padding: 1%;
+}
+.footer ul li:hover {
+    color: #fff;
+}
+.footer a {
+    text-decoration:none  
+    
+}
+
+.footer .f14 {
+    font-size: 15px;
+}
+.click {
+    cursor: pointer;
+}
+.butn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: .5em 1em;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+
+    &:hover,
+    &:focus {
+        color: #fff !important;
+        outline: 0;
+    }
+    
+    color: #000;
+    background: {
+        image: linear-gradient(45deg, #00008B 50%, transparent 50%);
+        position: 100%;
+        size: 400%;
+    }
+    transition: background 300ms ease-in-out;
+
+    &:hover {
+        background-position: 0;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    display: table;
+    background: #2957dd;
+    color: #2957dd;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: all 0.5s ease;
+    z-index: 11;
+    opacity: 0;
+  }
+  
+  .back-to-top i {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  } 
+  
+  .show-scrollTop {
+    opacity: 1 !important;
+    transition: all 0.8s ease;
+  }
+
+  @media only screen and (max-width: 825px) {
+    .box {
+        width: 600px;
+    }
+    
+.introimg {
+   width:200px;
+}
+
+    .mainTitle {
+        text-align: center;
+        font-family: "Bebas Neue", cursive;
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+    .navbar-nav{
+        font-weight: 600;
+    }
+
+    .imgbox {
+        min-height: 460px;
+        width: 100%;
+    }
+
+    .landpage {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .imgbox {
+        background: url(../assets/images/Nucare_Value_1.1-min.jpg);
+        background-position: top;
+        background-size: cover;
+        min-height: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
+  }
+
+@media only screen and (max-width: 650px) {
+    .box {
+        width: 450px;
+    }
+    .emptybox {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        width: unset;
+    }
+    .emptybox {
+        width: unset;
+        height: unset;
+    }
+    .ifimg {
+        width: 100%;
+    }
+
+    .imgbox {
+        min-height: 500px;
+    }
+}
