@@ -39,9 +39,10 @@
     }
 }
 .h1{
-    font-size: 35px;
+    margin-top: 7rem!important;
+    text-shadow: 0 0 3px #12b628ec, 0 0 5px #0ac470;
+    font-size: 45px;
     font-family:'Courier New', Courier, monospace;
-    color: #1c810e;
 }
 .landpage {
     background: url(../assets/images/front5.jpg);
@@ -156,7 +157,7 @@
 }
 .services {
     position:relative;
-    padding: 6vw 0;
+    padding: 2vw 0;
 }
 
 
@@ -218,12 +219,7 @@
     width: 50%;
     height: 150px;
 }
-span {
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
+
 .spltext {
     font-family: "Bebas Neue", cursive;
     font-size: 30px;
