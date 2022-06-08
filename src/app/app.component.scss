@@ -7,12 +7,14 @@
 }
 
 .navbar-shrink {
-    background-color: #fff !important;
+    background-color: rgb(125, 197, 173) !important;
+
 
     .navbar a {
-        color: rgba(0, 0, 0, 0.23);
+        color: rgb(125, 197, 173);
     }
 }
+
 .navbar {
     
     overflow: hidden;
@@ -24,6 +26,9 @@
 .navbar a {
     cursor: pointer;
 }
+
+
+
 @media (max-width: 500px) {
     .navbar {
         background-color: white !important;
@@ -33,17 +38,31 @@
         padding: 15px;
     }
 }
+.h1{
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    color: #1c810e;
+}
 .landpage {
-    background: url(../assets/images/Nucare_LandPage_1.2.jpg);
+    background: url(../assets/images/front5.jpg);
     background-position: top;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: initial;
+   
 }
+
 .landpage h5 {
     font-family: "poppins", sans-serif;
+    
+}
+
+.srvBg{
+
+    background: url(../assets/images/services2.webp);
+   
 }
 
 .introimg {
@@ -56,18 +75,22 @@
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
+ 
 }
 .mainTitle {
     text-align: center;
     font-family: "Bebas Neue", cursive;
-    font-size: 65px;
+    font-size: 50px;
     letter-spacing: 1px;
     font-weight: 200;
     padding-top: 20px;
 }
 .title {
+    margin:10px;
+    color: rgb(16, 189, 45);
     font-family: "Bebas Neue", cursive;
-    font-size: 30px;
+    text-shadow:  0 0 3px #0b070e, 0 0 5px #198754;
+    font-size: 50px;
     letter-spacing: 1px;
     font-weight: 400;
     padding: 10px 0;
@@ -75,91 +98,125 @@
 .secTitle {
     text-align: center;
     font-family: "Bebas Neue", cursive;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 1px;
     font-weight: 400;
     padding-top: 30px;
 }
 
 .about {
-    background-color: #292d33;
+    background-color: white;
+    // color: #000 !important;
     position: relative;
     overflow: hidden;
-}
-.about::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    height: 75px;
-    width: 3px;
-    background-color: #fff;
-}
+    text-align: center;
 
-    
+}
+.h3{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #198754;
+    color: #198754;
+    font-size: 2.5em;
+}
+.h2{
+    text-shadow: 0 0 3px rgb(196, 196, 219), 0 0 5px #198754;
+    color: #198754;
+    font-size: 1.5em;
+}
+.p{
+    color: navy;
+    text-indent: 35px;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+  
 
+// .about::after {
+//     content: "";
+//     margin-bottom: auto;
+//     position: absolute;
+//     bottom: 0;
+//     right: 10%;
+//     height: 75px;
+//     width: 3px;
+//     background-color: #fff;
+// }
+
+/*span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #0ddfd4;
+  }*/
+  
 .ourValues{
-    position: relative;
-    padding: 4vw 0;
+    position:relative;
+    padding-top: 5rem;
+    // padding: 4vw 0;
 }
 .services {
-    position: relative;
-    padding: 4vw 0;
-}
-.services::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 10%;
-    height: 75px;
-    width: 3px;
-    background-color: #2957dd;
-}
-.box {
-    margin: -360px auto 60px;
-    width: 765px;
-    position: relative;
+    position:relative;
+    padding: 6vw 0;
 }
 
+
+// .services::after {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 10%;
+//     height: 75px;
+//     width: 3px;
+//     background-color: #2957dd;
+// }
+// .box {
+//     margin: -360px auto 60px;
+//     width: 765px;
+//     height: -10px;
+//     position: relative;
+// }
 .title {
-    color: #fff;
-    padding-top: 15px;
+    // color: #fff;
+    padding-top: 17px;
     font-weight: 600;
-    margin: 0;
+    margin:30px;
     font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    color: #198754;
+
 }
+
 #services i {
-    color: #fff !important;
+    color: rgb(5, 129, 129) !important;
 }
 #lnpad {
-    padding: 4% 3% 8% 0;
+    padding: 2px 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.125rem;
     text-align: justify;
-}
-.quote {
-    background-color: lightyellow;
-    padding: 10%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.6875rem;
-}
-.quote i {
-    font-size: 70px;
-    color:#000;
     
 }
-.imgbox {
-    background: url(../assets/images/Nucare_Value_2-min.jpg);
-    background-position: top;
-    background-size: cover;
-    min-height: 460px;
-    width: 100%;
+// .quote {
+//     background-color: #198754;
+//     padding: 20%;
+//     font-family: "Open Sans", sans-serif;
+//     font-size: 1.6875rem;
+// }
+// .quote i {
+//     font-size: 70px;
+//     color:#000;
     
-
-}
+//}
+// .imgbox {
+//     background: url(../assets/images/aboutusimage.jpeg);
+//     background-position: top;
+//     background-size: cover;
+//     min-height: 460px;
+//     width: 100%;
+// }
 .emptybox {
-    width: 100%;
-    height: 250px;
+    width: 50%;
+    height: 150px;
 }
 span {
     font-style: italic;
@@ -173,7 +230,7 @@ span {
 }
 
 #services .card {
-    padding: 3%;
+    padding: 12%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all 0.3s 0s ease-in;
 }
@@ -186,19 +243,25 @@ span {
     align-items: center;
     justify-content: center;
     padding: 1rem 0;
+    cursor: pointer;
 }
 #services .iconwrapper {
-    background-color: #2957dd;
-    border-radius: 50%;
-    width: 75px;
+    background-color: #a5d7a3 ;
+    border-radius: 100%;
+    width: 6rem;
     aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 #services i {
-    font-size: 34px;
+    font-size: 50px;
+    color:white;
 }
 #recentWorks {
     background-color: #292d33;
@@ -218,7 +281,6 @@ span {
     margin-top: 0px !important;
 }
 //    .innerValues ul {width: 600px;}
-
     .innerValues ul li{ padding: 10px;}  
 @media (min_width:600px)
 {
@@ -228,10 +290,6 @@ span {
         }
 
 }
-
-
-
-
 .borderround {
     border-radius: 12px !important;
 }
@@ -241,8 +299,6 @@ span {
 #recentWorks .nobjfit {
     object-fit: cover !important;
 }
-
-
 .cursorp {
     cursor: pointer;
 }
@@ -269,7 +325,7 @@ span {
 
 #contact {
     // background-color: #292d33;
-    min-height: 650px;
+    min-height: 450px;
     padding-top: 0.5%;
 }
 #contact .card {
@@ -304,7 +360,7 @@ span {
     margin-top: 13px;
 }
 #contact .bshadow {
-    // box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    //box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -349,7 +405,7 @@ span {
     box-sizing: border-box;
     appearance: none;
     background-color: white;
-    color: black;
+    color: green;
     cursor: pointer;
     display: flex;
     align-self: center;
@@ -413,7 +469,7 @@ span {
 
   .ourValueImg{
 
-    height:680px;
+    height:500px;
   }
 
   @media only screen and (max-width: 825px) {
@@ -431,11 +487,13 @@ span {
     }
 
     .mainTitle {
+        margin-top:20px;
         text-align: center;
         font-family: "Bebas Neue", cursive;
         font-size: 40px;
         letter-spacing: 1px;
         font-weight: 200;
+       
     }
     .navbar-nav{
         font-weight: 600;
@@ -448,16 +506,17 @@ span {
         background-repeat: no-repeat;
     }
 
-    .imgbox {     
-        background: url(../assets/images/Nucare_Value_1.1-min.jpg);   
-        background-size: 250px !important;
-        background-repeat: no-repeat;
-        min-height:300px;
-        width: 100%;
-        margin-top: 100px;
-    }
+    // .imgbox {     background: url(
+    //     ../assets/images/aboutusimage.jpeg);   
+    //     background-size: 250px !important;
+    //     background-repeat: no-repeat;
+    //     min-height:300px;
+    //     width: 100%;
+    //     margin-top: 100px;
+    // }
 
-    .ourValueImg{
+    .ourValueImg
+    {
         height:480px;
       }
 }
@@ -504,6 +563,27 @@ span {
             margin:unset;
         }
     }
+/*
+    .navbar {
+        background-color: rgb(125, 235, 207) !important;
+    }
+    .navbar-collapse {
+        background-color:rgb(10 100 13)!important;
+        padding: 15px;
+    }*/
+
+}
+
+@media (min-width: 992px)
+{
+.navbar-nav {
+font-size: 1.5em;
+}
+
+.navbar-brand img{
+width: 90px;
+height: 50px;
+}
 
 }
 
