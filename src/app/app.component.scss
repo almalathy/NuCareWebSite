@@ -398,9 +398,10 @@
     cursor: pointer;
 }
 .butn {
+    border-radius: 15px;
     box-sizing: border-box;
     appearance: none;
-    background-color: white;
+    background-color: rgb(95, 224, 153);
     color: green;
     cursor: pointer;
     display: flex;
@@ -416,7 +417,7 @@
 
     &:hover,
     &:focus {
-        color: #fff !important;
+        color: rgb(16, 197, 98) !important;
         outline: 0;
     }
     
@@ -452,7 +453,7 @@
   }
   
   .back-to-top i {
-    color: #fff;
+    color: rgb(15, 230, 201);
     display: table-cell;
     vertical-align: middle;
     text-align: center;
